@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light">
+    <meta name="theme-color" content="#862d40">
+    <meta name="description" content="段现时的个人主页。山东大学网络空间安全学院，对称密码实验室。">
+    <title>段现时 | 山东大学</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#about">跳转到主要内容</a>
+
+    <div class="page-shell">
+      <header class="site-header">
+        <a class="wordmark" href="#about" aria-label="段现时，返回主页">
+          <span class="name-mark" aria-hidden="true">段</span>
+          <span>段现时<span class="wordmark-divider" aria-hidden="true">/</span><span class="wordmark-label">个人主页</span></span>
+        </a>
+        <nav aria-label="主导航">
+          <a href="#about">关于</a>
+          <a href="#contact">联系</a>
+        </nav>
+      </header>
+
+      <main id="about" tabindex="-1">
+        <div class="profile-layout">
+          <section class="profile" aria-labelledby="profile-name">
+            <p class="eyebrow"><span aria-hidden="true"></span>个人学术主页</p>
+            <!-- 个人资料：后续修改姓名、身份和单位时，编辑此处。 -->
+            <h1 id="profile-name">段现时<span class="name-dot" aria-hidden="true">.</span></h1>
+            <p class="role">硕士研究生</p>
+
+            <div class="affiliation">
+              <p class="university">山东大学</p>
+              <p>网络空间安全学院</p>
+              <p>对称密码实验室</p>
+            </div>
+
+            <a class="email-button" href="mailto:xianshiduan@mail.sdu.edu.cn">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true">
+                <rect x="3" y="5" width="18" height="14" rx="2"></rect>
+                <path d="m4 6 8 6 8-6"></path>
+              </svg>
+              邮件联系
+              <span aria-hidden="true">↗</span>
+            </a>
+          </section>
+
+          <section id="contact" class="contact-panel" aria-labelledby="contact-title" tabindex="-1">
+            <div class="panel-heading">
+              <h2 id="contact-title">联系方式</h2>
+              <span lang="en">CONTACT</span>
+            </div>
+            <!-- 联系方式：邮箱和 GitHub 地址均可直接点击。 -->
+            <a class="contact-item" href="mailto:xianshiduan@mail.sdu.edu.cn">
+              <span class="contact-label">电子邮箱</span>
+              <span class="contact-value email-address">xianshiduan@<wbr>mail.sdu.edu.cn</span>
+              <span class="contact-arrow" aria-hidden="true">↗</span>
+            </a>
+            <a class="contact-item" href="https://github.com/duaniii">
+              <span class="contact-label" lang="en">GitHub</span>
+              <span class="contact-value" lang="en">duaniii</span>
+              <span class="contact-arrow" aria-hidden="true">↗</span>
+            </a>
+            <div class="panel-bottom" aria-hidden="true"><span></span><span></span><span></span></div>
+          </section>
+        </div>
+        <!-- 后续可在这里添加研究方向、论文和项目，当前只展示已确认的信息。 -->
+      </main>
+
+      <footer class="site-footer">
+        <p>段现时<span aria-hidden="true">·</span>山东大学</p>
+        <p lang="en">Personal Academic Homepage</p>
+      </footer>
+    </div>
+  </body>
+</html>
